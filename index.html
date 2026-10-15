@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<meta name="googlebot" content="noindex, nofollow, noarchive">
+<title>Electrical contractor, Honolulu | Jack Endo Electric, Inc. (sample redesign)</title>
+<meta name="description" content="Sample redesign for Jack Endo Electric, Inc., an electrical contractor on Kilihau Street in Honolulu.">
+<meta name="theme-color" content="#1b2550">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Courier+Prime:wght@400;700&family=Public+Sans:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+<script src="site.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="ribbon" role="note"><div class="wrap"><strong>Sample.</strong>Not affiliated with Jack Endo Electric. An unsolicited proposed redesign, not their live website.</div></div>
+<header class="site-head">
+<div class="wrap head-row">
+<a class="mark" href="index.html"><svg viewBox="0 0 40 40" aria-hidden="true" focusable="false"><rect x="1.5" y="1.5" width="37" height="37" fill="#1b2550"/><path d="M23 5 11 22h8l-3 13 13-19h-8l4-11z" fill="#f2dc7a"/></svg><span class="mark-words"><b>Jack Endo Electric</b><small>Kilihau St &middot; Honolulu, O&#699;ahu</small></span></a>
+<nav class="nav" aria-label="Main"><a href="index.html" aria-current="page">Home</a><a href="request.html">Request</a><a href="company.html">The shop</a></nav>
+<a class="head-call" href="tel:+18088397717"><small>Call the office</small><span>(808) 839-7717</span></a>
+<nav class="mnav" aria-label="Main, mobile"><a href="index.html" aria-current="page">Home</a><a href="request.html">Request</a><a href="company.html">The shop</a></nav>
+</div>
+</header>
+<main id="main">
+
+<section class="hero">
+<div class="wrap hero-grid">
+<div class="hero-copy">
+<p class="kicker"><span>2814 Kilihau Street</span><span>Honolulu, O&#699;ahu</span><span>Residential &amp; commercial</span></p>
+<h1>Jack Endo <em>Electric</em></h1>
+<p class="lede">Electrical work for homes and businesses on O&#699;ahu. Tell the office what is going on, a dead circuit, a panel that is out of room, a charger, a job to bid, and you are one call or one short form from a real person.</p>
+<div class="btns"><a class="btn btn-ink" href="tel:+18088397717">Call (808) 839-7717</a><a class="btn btn-canary" href="#picker">Start a request</a></div>
+</div>
+<div class="stack" aria-hidden="true">
+<div class="sheet pink"></div><div class="sheet canary"></div>
+<div class="ticket lead">
+<div class="t-head"><div><b>Work request</b><small>Jack Endo Electric, Inc.</small></div><div class="t-no">No.<br><span>0001</span></div></div>
+<dl>
+<div class="t-row"><dt>Job site</dt><dd><span class="typed">Kaimuki, O&#699;ahu</span></dd></div>
+<div class="t-row"><dt>Type</dt><dd class="t-boxes"><i class="x">Home</i><i>Business</i></dd></div>
+<div class="t-row"><dt>Work</dt><dd class="t-boxes"><i>Power</i><i class="x">Panel</i><i>EV</i><i>Bid</i></dd></div>
+<div class="t-row"><dt>Notes</dt><dd>100 amp panel, adding a car charger</dd></div>
+<div class="t-row"><dt>Call back</dt><dd>Weekday mornings</dd></div>
+</dl>
+<span class="stamp">Received</span>
+</div>
+</div>
+</div>
+</section>
+
+<section class="sec" id="picker">
+<div class="wrap">
+<div class="sec-head split">
+<div><p class="tag">Fill out the ticket</p><h2>What kind of electrical job?</h2></div>
+<p>Pick home or business, then the job. Some things should be a phone call right now. Others go faster with a photo of the panel. The ticket tells you which.</p>
+</div>
+<form class="picker rv" action="request.html" method="get" aria-label="Electrical request picker">
+<fieldset class="side"><legend>Where is the work?</legend>
+<input type="radio" name="side" id="side-res" value="res" checked><label for="side-res">Home<small>Residential</small></label>
+<input type="radio" name="side" id="side-com" value="com"><label for="side-com" class="second">Business<small>Commercial</small></label>
+</fieldset>
+<fieldset class="jobs res"><legend>Residential jobs</legend><input type="radio" name="job" id="j-r-power" value="r-power"><label for="j-r-power"><b>Power issue</b><span>Outlets dead, breaker keeps tripping, lights flickering.</span></label><input type="radio" name="job" id="j-r-panel" value="r-panel"><label for="j-r-panel"><b>Panel upgrade</b><span>Old panel, not enough room, or adding a big load.</span></label><input type="radio" name="job" id="j-r-ev" value="r-ev"><label for="j-r-ev"><b>EV charger</b><span>A Level 2 charger in the carport or garage.</span></label><input type="radio" name="job" id="j-r-solar" value="r-solar"><label for="j-r-solar" class="ask"><b>Solar or battery tie-in</b><span>Rooftop PV, a battery, or a tie-in to an existing system.</span><em>Steve: only if you do this</em></label></fieldset>
+<fieldset class="jobs com"><legend>Commercial jobs</legend><input type="radio" name="job" id="j-c-power" value="c-power"><label for="j-c-power"><b>Power issue</b><span>Something is down at the shop, office or warehouse.</span></label><input type="radio" name="job" id="j-c-panel" value="c-panel"><label for="j-c-panel"><b>Panel or service upgrade</b><span>More capacity for equipment, a buildout, a new tenant.</span></label><input type="radio" name="job" id="j-c-ev" value="c-ev"><label for="j-c-ev"><b>EV charging</b><span>Chargers for a parking lot, a fleet or a building.</span></label><input type="radio" name="job" id="j-c-bid" value="c-bid"><label for="j-c-bid"><b>Project bid</b><span>Plans in hand and you need an electrical number.</span></label></fieldset>
+<div class="nexts" aria-live="polite"><div class="next idle">Pick the job above. The ticket tells you whether to call or write it up, and what to have ready.</div><div class="next n-r-power"><span class="stamp">CALL</span><h3>Call first.</h3><p>A power problem at home is a phone call, not a form. Have this handy:</p><ul><li>Which rooms or outlets are out</li><li>Whether a breaker trips, and which one</li><li>When it started</li></ul><p class="warn">Sparks, a burning smell, or a line down: get clear and call 911 first.</p><div class="btns"><a class="btn btn-ink" href="tel:+18088397717">Call (808) 839-7717</a><a class="btn" href="request.html?type=power">Or write it up</a></div></div><div class="next n-r-panel"><span class="stamp">REQUEST</span><h3>Write it up.</h3><p>A panel job starts with a look at what you have. Helpful to send:</p><ul><li>A photo of the panel with the door open</li><li>The amp rating on the main breaker, if you can read it</li><li>What you are adding (AC, EV, an addition)</li></ul><div class="btns"><a class="btn btn-ink" href="request.html?type=panel">Write it up</a><a class="btn" href="tel:+18088397717">Call (808) 839-7717</a></div></div><div class="next n-r-ev"><span class="stamp">REQUEST</span><h3>Write it up.</h3><p>Chargers are mostly about distance and capacity. Helpful to send:</p><ul><li>Where the car parks, and how far that is from the panel</li><li>A photo of the panel</li><li>The charger model, if you bought one already</li></ul><div class="btns"><a class="btn btn-ink" href="request.html?type=ev">Write it up</a><a class="btn" href="tel:+18088397717">Call (808) 839-7717</a></div></div><div class="next n-r-solar"><span class="stamp">CONFIRM</span><h3>Steve: keep or cut.</h3><p>This option is only here if Jack Endo Electric does solar or battery tie-ins. If you do, this is where a homeowner tells you what system they have and what they want added.</p><div class="btns"><a class="btn btn-ink" href="request.html?type=solar">Write it up</a><a class="btn" href="tel:+18088397717">Call (808) 839-7717</a></div></div><div class="next n-c-power"><span class="stamp">CALL</span><h3>Call first.</h3><p>If a business is down, call the office. Have this handy:</p><ul><li>Business name and street address</li><li>What is out (a circuit, a floor, the whole building)</li><li>A contact on site</li></ul><p class="warn">Sparks, a burning smell, or a line down: get clear and call 911 first.</p><div class="btns"><a class="btn btn-ink" href="tel:+18088397717">Call (808) 839-7717</a><a class="btn" href="request.html?type=c-power">Or write it up</a></div></div><div class="next n-c-panel"><span class="stamp">REQUEST</span><h3>Write it up.</h3><p>Service upgrades start with the load. Helpful to send:</p><ul><li>Address and type of building</li><li>Photos of the main panel and meter</li><li>The equipment or buildout driving it</li></ul><div class="btns"><a class="btn btn-ink" href="request.html?type=c-panel">Write it up</a><a class="btn" href="tel:+18088397717">Call (808) 839-7717</a></div></div><div class="next n-c-ev"><span class="stamp">REQUEST</span><h3>Write it up.</h3><p>Commercial charging depends on the site. Helpful to send:</p><ul><li>How many stalls, and for whom (staff, fleet, public)</li><li>Distance from the electrical room</li><li>Any timeline tied to a rebate or a lease</li></ul><div class="btns"><a class="btn btn-ink" href="request.html?type=c-ev">Write it up</a><a class="btn" href="tel:+18088397717">Call (808) 839-7717</a></div></div><div class="next n-c-bid"><span class="stamp">REQUEST</span><h3>Send the plans.</h3><p>For a bid, the request form has room for the basics:</p><ul><li>Project name, address and GC</li><li>Bid due date</li><li>Where to get the drawings</li></ul><div class="btns"><a class="btn btn-ink" href="request.html?type=bid">Write it up</a><a class="btn" href="tel:+18088397717">Call (808) 839-7717</a></div></div></div>
+</form>
+</div>
+</section>
+
+<section class="sec dark">
+<div class="wrap">
+<div class="sec-head split">
+<div><p class="tag">How a request moves</p><h2>From your call to the truck.</h2></div>
+<p>No call center and no app. The request lands at the office on Kilihau Street.</p>
+</div>
+<ol class="steps rv">
+<li><b>You call or write it up</b>Home or business, what is wrong or what you are planning, and where on O&#699;ahu.</li>
+<li><b>The office calls back</b>Questions about the panel, the site, the timeline. Photos help.</li>
+<li><b>A crew is scheduled</b>Service call, estimate, or a bid back to you or your GC.</li>
+</ol>
+</div>
+</section>
+
+<section class="sec">
+<div class="wrap">
+<div class="sec-head split">
+<div><p class="tag">Work on the island</p><h2>Jobs we put our name on.</h2></div>
+<p>Real photos of real jobs beat any stock picture. These boxes are where Jack Endo Electric&rsquo;s own work goes.</p>
+</div>
+<div class="grid3">
+<figure class="ph tall rv"><figcaption><b>Steve:</b> a commercial job you&rsquo;re proud of. Switchgear, a buildout, a lit-up storefront.</figcaption></figure>
+<figure class="ph tall rv"><figcaption><b>Steve:</b> a clean panel upgrade, door open, labels showing.</figcaption></figure>
+<figure class="ph tall rv"><figcaption><b>Steve:</b> a crew on a residential job, anywhere on O&#699;ahu.</figcaption></figure>
+</div>
+</div>
+</section>
+
+<section class="sec alt">
+<div class="wrap grid2">
+<div>
+<p class="tag">The shop</p>
+<h2>Kilihau Street, mauka of the H-1.</h2>
+<p style="margin-top:16px">Jack Endo Electric runs out of 2814 Kilihau Street in Honolulu. If you are dropping off plans or meeting the office, that is where to go.</p>
+<div class="addr">
+<dl>
+<div class="t-row"><dt>Address</dt><dd>2814 Kilihau Street<br>Honolulu, HI 96819</dd></div>
+<div class="t-row"><dt>Phone</dt><dd><a href="tel:+18088397717">(808) 839-7717</a></dd></div>
+<div class="t-row"><dt>Map</dt><dd><a href="https://www.google.com/maps/search/?api=1&amp;query=2814+Kilihau+St+Honolulu+HI+96819" rel="noopener">Open in Google Maps</a></dd></div>
+</dl>
+</div>
+<div class="btns"><a class="btn" href="company.html">About the company</a></div>
+</div>
+<figure class="ph tall rv"><figcaption><b>Steve:</b> the trucks in the yard on Kilihau Street, or the shop sign. This is the photo that tells people you are real.</figcaption></figure>
+</div>
+</section>
+</main>
+<footer class="foot">
+<div class="wrap">
+<div class="foot-grid">
+<div><b>Jack Endo Electric, Inc.</b>Electrical contractor<br>2814 Kilihau Street<br>Honolulu, HI 96819</div>
+<div><b>Call</b><a href="tel:+18088397717">(808) 839-7717</a><br><a href="request.html">Send a request</a></div>
+<div><b>Find the shop</b><a href="https://www.google.com/maps/search/?api=1&amp;query=2814+Kilihau+St+Honolulu+HI+96819" rel="noopener">Open in Google Maps</a><br>Mauka of the H-1, off Kilihau Street</div>
+</div>
+<small>Sample redesign prepared as a proposal. Not affiliated with Jack Endo Electric, Inc. and not their live website. Boxes marked &ldquo;Steve:&rdquo; are spots for the company&rsquo;s own photos and words.</small>
+</div>
+</footer>
+</body>
+</html>

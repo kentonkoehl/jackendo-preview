@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<meta name="googlebot" content="noindex, nofollow, noarchive">
+<title>Send a request | Jack Endo Electric, Inc. (sample redesign)</title>
+<meta name="description" content="Sample request form for Jack Endo Electric, Inc., Honolulu.">
+<meta name="theme-color" content="#1b2550">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Courier+Prime:wght@400;700&family=Public+Sans:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+<script src="site.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="ribbon" role="note"><div class="wrap"><strong>Sample.</strong>Not affiliated with Jack Endo Electric. An unsolicited proposed redesign, not their live website.</div></div>
+<header class="site-head">
+<div class="wrap head-row">
+<a class="mark" href="index.html"><svg viewBox="0 0 40 40" aria-hidden="true" focusable="false"><rect x="1.5" y="1.5" width="37" height="37" fill="#1b2550"/><path d="M23 5 11 22h8l-3 13 13-19h-8l4-11z" fill="#f2dc7a"/></svg><span class="mark-words"><b>Jack Endo Electric</b><small>Kilihau St &middot; Honolulu, O&#699;ahu</small></span></a>
+<nav class="nav" aria-label="Main"><a href="index.html">Home</a><a href="request.html" aria-current="page">Request</a><a href="company.html">The shop</a></nav>
+<a class="head-call" href="tel:+18088397717"><small>Call the office</small><span>(808) 839-7717</span></a>
+<nav class="mnav" aria-label="Main, mobile"><a href="index.html">Home</a><a href="request.html" aria-current="page">Request</a><a href="company.html">The shop</a></nav>
+</div>
+</header>
+<main id="main">
+
+<section class="sec">
+<div class="wrap">
+<div class="sec-head split">
+<div><p class="tag">Work request</p><h1 style="font-size:clamp(2.6rem,9vw,5rem)">Write it up.</h1></div>
+<p>Five short lines. The office reads it and calls you back. If the power is out right now, <a href="tel:+18088397717">call (808) 839-7717</a> instead.</p>
+</div>
+<div class="form-ticket">
+<div class="stack" style="max-width:none;padding:0 14px 26px 0">
+<div class="sheet pink"></div><div class="sheet canary"></div>
+<form class="ticket lead" id="req" action="sent.html" method="get">
+<div class="t-head"><div><b>Work request</b><small>Jack Endo Electric, Inc. &middot; Honolulu</small></div><div class="t-no">No.<br><span>Office use</span></div></div>
+<div class="f-grid">
+<fieldset class="fld full"><legend>Home or business</legend><div class="chips"><input type="radio" name="side" id="s-res" value="res" checked><label for="s-res">Home</label><input type="radio" name="side" id="s-com" value="com"><label for="s-com">Business</label></div></fieldset>
+<fieldset class="fld full"><legend>Type of work</legend><div class="chips"><input type="radio" name="type" id="t-power" value="power"><label for="t-power">Power issue</label><input type="radio" name="type" id="t-panel" value="panel"><label for="t-panel">Panel upgrade</label><input type="radio" name="type" id="t-ev" value="ev"><label for="t-ev">EV charger</label><input type="radio" name="type" id="t-solar" value="solar"><label for="t-solar" class=ask>Solar or battery tie-in</label><input type="radio" name="type" id="t-c-power" value="c-power"><label for="t-c-power">Business power issue</label><input type="radio" name="type" id="t-c-panel" value="c-panel"><label for="t-c-panel">Service upgrade</label><input type="radio" name="type" id="t-c-ev" value="c-ev"><label for="t-c-ev">Commercial EV charging</label><input type="radio" name="type" id="t-bid" value="bid"><label for="t-bid">Project bid</label></div></fieldset>
+<div class="fld"><label for="f-name">Your name</label><input type="text" id="f-name" name="name" autocomplete="name" required></div>
+<div class="fld"><label for="f-phone">Phone</label><input type="tel" id="f-phone" name="phone" autocomplete="tel" required></div>
+<div class="fld"><label for="f-site">Job site (neighborhood or town on O&#699;ahu)</label><input type="text" id="f-site" name="site" placeholder="Kaimuki, Kapolei, Kaneohe..."></div>
+<div class="fld"><label for="f-when">Best time to call back</label><select id="f-when" name="when"><option>Anytime</option><option>Mornings</option><option>Afternoons</option></select></div>
+<div class="fld full"><label for="f-notes">What is going on</label><textarea id="f-notes" name="notes" placeholder="Panel size if you know it, what you are adding, bid due date, anything that helps."></textarea></div>
+<div class="fld full"><label for="f-email">Email (optional)</label><input type="email" id="f-email" name="email" autocomplete="email"></div>
+</div>
+<div class="form-foot"><p>Sample form. On the live site this goes straight to the office inbox and texts the request to a phone.</p><button class="btn btn-ink" type="submit">Send the request</button></div>
+<div id="form-msg" tabindex="-1" role="status"><b>Sample only.</b> Nothing was sent. On the live site, this request would be at the Jack Endo Electric office right now.</div>
+</form>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="foot">
+<div class="wrap">
+<div class="foot-grid">
+<div><b>Jack Endo Electric, Inc.</b>Electrical contractor<br>2814 Kilihau Street<br>Honolulu, HI 96819</div>
+<div><b>Call</b><a href="tel:+18088397717">(808) 839-7717</a><br><a href="request.html">Send a request</a></div>
+<div><b>Find the shop</b><a href="https://www.google.com/maps/search/?api=1&amp;query=2814+Kilihau+St+Honolulu+HI+96819" rel="noopener">Open in Google Maps</a><br>Mauka of the H-1, off Kilihau Street</div>
+</div>
+<small>Sample redesign prepared as a proposal. Not affiliated with Jack Endo Electric, Inc. and not their live website. Boxes marked &ldquo;Steve:&rdquo; are spots for the company&rsquo;s own photos and words.</small>
+</div>
+</footer>
+</body>
+</html>
